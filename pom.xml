@@ -6,7 +6,11 @@
         <artifactId>evoli-microservices-api</artifactId>
         <version>1.0.1-SNAPSHOT</version>
     </parent>
-    <artifactId>Evoli-config-server-api-prop</artifactId>
-    <version>4.0.0</version>
+    
+    <groupId>br.com.evoli</groupId>
+    <artifactId>config-server-api-prop</artifactId>
+    <version>1.0.0</version>
+    <name>Evoli-config-server-api-prop</name>
+    <description></description>
     <packaging>jar</packaging>
 </project>
