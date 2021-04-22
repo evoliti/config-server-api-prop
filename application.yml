@@ -9,7 +9,7 @@ eureka:
     #hostname: localhost
     preferIpAddress: true
     #ipAddr: 127.0.0.1
-    lease-renewal-interval-in-seconds: 30
+    lease-renewal-interval-in-seconds: 15
 
 microservice:
   auth-api:
