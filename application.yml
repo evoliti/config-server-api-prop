@@ -4,12 +4,12 @@ eureka:
     fetch-registry: true
     service-url:
       defaultZone: http://localhost:8761/eureka
-    #should-unregister-on-shutdown: false
+    should-unregister-on-shutdown: false
   instance:
-    hostname: localhost
-    #preferIpAddress: true
+    #hostname: localhost
+    preferIpAddress: true
     #ipAddr: 127.0.0.1
-    #lease-renewal-interval-in-seconds: 30
+    lease-renewal-interval-in-seconds: 30
 
 microservice:
   auth-api:
