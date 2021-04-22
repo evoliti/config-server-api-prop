@@ -11,7 +11,7 @@ eureka:
     #ipAddr: 127.0.0.1
     
     # O servidor espera pulsações do cliente em um intervalo configurado com esta propriedade - o valor padrão é 30
-    lease-renewal-interval-in-seconds: 15
+    lease-renewal-interval-in-seconds: 30
 
 microservice:
   auth-api:
